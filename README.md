@@ -86,3 +86,4 @@ X^2^
 Developer
 Ventilador rama desarrollo
 Probando stage
+Probando stash drop
