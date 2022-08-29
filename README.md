@@ -1,6 +1,6 @@
 # capacitacionMTE
 Infracciones
-# Titulo
+# Main
 
 <!-- Headings! -->
 # H1
