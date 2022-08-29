@@ -86,4 +86,8 @@ X^2^
 Developer
 Ventilador rama desarrollo
 Probando stage
+<<<<<<< Updated upstream
 Probando stash drop
+=======
+Esto voy a recatar
+>>>>>>> Stashed changes
