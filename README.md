@@ -89,6 +89,6 @@ Probando stage
 
 Probando stash drop
 Esto voy a recatar
-
+linea 92 
 
 Cnflictos # 1
