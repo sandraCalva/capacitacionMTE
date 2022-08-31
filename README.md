@@ -86,7 +86,12 @@ X^2^
 Developer
 Ventilador rama desarrollo
 Probando stage
+
 Probando stash drop
+Esto voy a recatar
+linea 92 
+
+Cnflictos # 1
 
 
 escribo en main para verificar conflicto
