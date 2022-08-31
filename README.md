@@ -87,3 +87,6 @@ Developer
 Ventilador rama desarrollo
 Probando stage
 Probando stash drop
+
+
+escribo en main para verificar conflicto
