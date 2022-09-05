@@ -7,11 +7,13 @@ import { Componente1Component } from './componente1/componente1.component';
 import {ButtonModule} from 'primeng/button';
 import {MultiSelectModule} from 'primeng/multiselect';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ComponenteDosComponent } from './module1/componente-dos/componente-dos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     Componente1Component,
+    ComponenteDosComponent,
     
 
   ],
