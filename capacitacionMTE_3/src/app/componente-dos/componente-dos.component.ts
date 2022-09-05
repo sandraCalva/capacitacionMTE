@@ -19,18 +19,12 @@ interface City {
 export class ComponenteDosComponent implements OnInit {
     @Input() letras : string[] = [];
     @Input() vocales : any[] = [];
-     cities: City[];  
+    @Input() cities : any[] = [];
 
    // selectedCity: City;
 
     constructor() {
-        this.cities = [
-            {name: 'New York', code: 'NY'},
-            {name: 'Rome', code: 'RM'},
-            {name: 'London', code: 'LDN'},
-            {name: 'Istanbul', code: 'IST'},
-            {name: 'Paris', code: 'PRS'}
-        ];
+       
        
     }
 

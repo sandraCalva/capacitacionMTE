@@ -490,13 +490,19 @@
 
 <router-outlet></router-outlet>
 
-<app-componente-dos [vocales]="vocales"></app-componente-dos>
+
 
 <app-componente1 [entrada]="'Vengo desde afuera'" ></app-componente1>
 
-<app-componente-dos [letras]="letrasAPPComponent"></app-componente-dos>
+<app-componente-dos 
+[cities]="cities"
+[letras]="letrasAPPComponent"
+[vocales]="vocales"
 
-<app-componente-dos [vocales]="vocales"></app-componente-dos>
+>
+
+</app-componente-dos>
+
 
 
 
