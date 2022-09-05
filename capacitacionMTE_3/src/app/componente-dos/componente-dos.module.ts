@@ -9,4 +9,8 @@ import { CommonModule } from '@angular/common';
     CommonModule
   ]
 })
-export class ComponenteDosModule { }
+export class ComponenteDosModule {
+
+
+  
+ }

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import {MenuItem} from 'primeng/api';
 import {SelectItem} from 'primeng/api';
 import {SelectItemGroup} from 'primeng/api';
@@ -9,14 +9,17 @@ interface City {
   code: string
 }
 
+
+
 @Component({
   selector: 'app-componente-dos',
   templateUrl: './componente-dos.component.html',
   styleUrls: ['./componente-dos.component.css']
 })
 export class ComponenteDosComponent implements OnInit {
-
-     cities: City[];
+    @Input() letras : string[] = [];
+    @Input() vocales : any[] = [];
+     cities: City[];  
 
    // selectedCity: City;
 
@@ -28,6 +31,7 @@ export class ComponenteDosComponent implements OnInit {
             {name: 'Istanbul', code: 'IST'},
             {name: 'Paris', code: 'PRS'}
         ];
+       
     }
 
 
