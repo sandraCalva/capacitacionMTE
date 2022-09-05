@@ -6,15 +6,17 @@ import { AppComponent } from './app.component';
 import { Componente1Component } from './componente1/componente1.component';
 import {ButtonModule} from 'primeng/button';
 import {MultiSelectModule} from 'primeng/multiselect';
+import {DropdownModule} from 'primeng/dropdown';
+
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { ComponenteDosComponent } from './module1/componente-dos/componente-dos.component';
+import { ComponenteDosComponent } from './componente-dos/componente-dos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     Componente1Component,
     ComponenteDosComponent,
-    
+      
 
   ],
   imports: [
@@ -22,7 +24,8 @@ import { ComponenteDosComponent } from './module1/componente-dos/componente-dos.
     BrowserAnimationsModule,
     AppRoutingModule,
     ButtonModule,
-    MultiSelectModule
+    MultiSelectModule,
+    DropdownModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
