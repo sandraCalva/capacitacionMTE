@@ -24,6 +24,7 @@ export class AppComponent {
   selectedCities: string[] = [];
   letrasAPPComponent:any[] = [ { name: "J", code: "NY" }];
   
+    mensajeHijo: any;
   
   vocales: Vocales[]= [ ];
   
@@ -44,6 +45,12 @@ export class AppComponent {
         {name: 'O', code: 'Oo'},
         {name: 'U', code: 'Uu'}
     ];
+    }
+
+    recibeHijo (mensaje: any){
+      mensaje
+      console.log(mensaje,'jgghjgjhg')
+      this.mensajeHijo=mensaje;
     }
 
 }

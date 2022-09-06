@@ -490,20 +490,17 @@
 
 <router-outlet></router-outlet>
 
-
-
 <app-componente1 [entrada]="'Vengo desde afuera'" ></app-componente1>
-
+--------------------------------------------------------------------
 <app-componente-dos 
 [cities]="cities"
 [letras]="letrasAPPComponent"
 [vocales]="vocales"
-
+(envioPadre)="recibeHijo($event)"
 >
-
 </app-componente-dos>
+MENSAJE HIJO
 
-
-
+{{mensajeHijo}}
 
 

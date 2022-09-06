@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit , Output} from '@angular/core';
 import {MenuItem} from 'primeng/api';
 import {SelectItem} from 'primeng/api';
 import {SelectItemGroup} from 'primeng/api';
@@ -21,17 +21,26 @@ export class ComponenteDosComponent implements OnInit {
     @Input() vocales : any[] = [];
     @Input() cities : any[] = [];
 
+    @Output () envioPadre = new EventEmitter<any>();
+
    // selectedCity: City;
+
 
     constructor() {
        
-       
     }
-
-
-
     ngOnInit(): void {
+
+      
     }
+
+    enviarPadre(){
+      this.envioPadre.emit("esto envio desde padre ");
+      console.log('desaCTIVE');
+
+    }  
+
+    
 
 }
 
